@@ -22,11 +22,6 @@ public class ExampleClass {
         double b = 13.5;
         System.out.println(add(a, b));
 
-        var firstStudent: String = calculateGreade(90);
-        System.out.println(firstStudent);
-        var secondStudent: String = calculateGreade(32);
-        System.out.println(secondStudent);
-
 
 
 
@@ -54,18 +49,9 @@ public class ExampleClass {
 
     }
 
-    public static String calculateGreade(int score) {
-        if (score >= 90) {
-           return "A";
-        } else if (score >= 75) {
-            return "B";
-        } else if (score >= 50) {
-          return "C";
-        } else {
-            return "F";
-        }
+
 
     }
 
 
-}
+
